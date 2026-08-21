@@ -22,10 +22,6 @@ string."""
 print(d) # prints the value of the variable d
 print(type(d)) # prints the type of the variable d
 
-print(len(d)) # prints the length of the variable d
-
-print('multi' in d) # checks if 'multi' is in the variable d and prints the result
-
 d = True
 
 print(d) # prints the value of the variable d
