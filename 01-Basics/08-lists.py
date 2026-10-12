@@ -76,3 +76,6 @@ print(vegetables.index("tomato"))  # Find the index of "tomato" in the list
 
 vegetables.clear()  # Remove all elements from the list
 print(vegetables)  # Output: []
+
+del vegetables  # Delete the list entirely
+# print(vegetables)  # This will raise a NameError since the list no longer
