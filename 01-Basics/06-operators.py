@@ -1,5 +1,5 @@
 x = 15
-y = 4
+y = 4.5
 
 # Arithmetic Operators
 
@@ -8,7 +8,7 @@ print(x - y)
 print(x * y)
 print(x / y)
 print(x % y)
-print(x ** y) # 15 to the power of 4
+print(x ** y) # 15 to the power of 4.5
 print(x // y) # 15 divided by 4 (integer division)
 
 # Ternary Operator
