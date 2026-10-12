@@ -34,7 +34,10 @@ list1 = [1, 2, 3]
 list2 = [1, 2, 3]
 list3 = list1
 
+# Identity Operators
+
 print(list1 is list2) # prints False because list1 and list2 are different objects in memory
+print(list1 is not list2) # prints True because list1 and list2 are different objects in memory
 print(list1 == list2) # prints True because list1 and list2 have the same elements
 print(list1 is list3) # prints True because list3 is a reference to list1
 
@@ -45,6 +48,8 @@ print(x > 10 or y < 5) # prints True because at least one condition is True
 print(not(x > 10 and y < 5)) # prints False because the condition is True and not operator negates it
 
 list1 = ['apple', 'banana', 'cherry']
+
+# Membership Operators
 
 print('banana' in list1) # prints True because 'banana' is in list1
 print('grape' not in list1) # prints True because 'grape' is not in list1

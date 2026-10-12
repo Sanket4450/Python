@@ -50,3 +50,29 @@ print(vegetables)  # Output: ['carrot', 'broccoli', 'tomato', 'potato']
 
 vegetables.pop()  # Remove the last element (potato)
 print(vegetables)  # Output: ['carrot', 'broccoli', 'tomato']
+
+for vegetable in vegetables:
+    print(vegetable)  # Output: carrot, broccoli, tomato
+
+vegetables.sort()  # Sort the list in ascending order
+print(vegetables)  # Output: ['broccoli', 'carrot', 'tomato']
+
+vegetables.sort(reverse=True)  # Sort the list in descending order
+print(vegetables)  # Output: ['tomato', 'carrot', 'broccoli']
+
+vegetables.reverse()  # Reverse the order of the list
+print(vegetables)  # Output: ['broccoli', 'carrot', 'tomato']
+
+vegetable_ref = vegetables  # Create a reference to the list
+vegetable_ref.append("cucumber")  # Add "cucumber" to the list using the reference
+print(vegetables)  # Output: ['broccoli', 'carrot', 'tomato', 'cucumber']
+
+vagetables_copy = vegetables.copy()  # Create a copy of the list
+print(vagetables_copy)  # Output: ['broccoli', 'carrot', 'tomato', 'cucumber']
+
+print(vegetables.count("carrot"))  # Count the occurrences of "carrot" in the list
+
+print(vegetables.index("tomato"))  # Find the index of "tomato" in the list
+
+vegetables.clear()  # Remove all elements from the list
+print(vegetables)  # Output: []

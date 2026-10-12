@@ -26,3 +26,24 @@ d = True
 
 print(d) # prints the value of the variable d
 print(type(d)) # prints the type of the variable d
+
+e = None
+
+print(e)  # prints the value of the variable e
+print(type(e))  # prints the type of the variable e
+
+f = [1, 2, 3, 4, 5]
+print(f)  # prints the value of the variable f
+print(type(f))  # prints the type of the variable f
+
+g = (1, 2, 3, 4, 5)
+print(g)  # prints the value of the variable g
+print(type(g))  # prints the type of the variable g
+
+h = {1, 2, 3, 4, 5}
+print(h)  # prints the value of the variable h
+print(type(h))  # prints the type of the variable h
+
+i = {"name": "John", "age": 30, "city": "New York"}
+print(i)  # prints the value of the variable i
+print(type(i))  # prints the type of the variable i
